@@ -9,7 +9,6 @@ script:
     - bundle exec rake clean
     - bundle exec rake spec
     - bundle exec rake clean
-    - bundle exec rake spec osx=true
 notifications:
   emails:
     - omoon@me.com
