@@ -1,1 +1,6 @@
 language: objective-c
+notifications:
+  emails:
+    - omoon@me.com
+  on_success: always # default: change
+  on_failure: always
